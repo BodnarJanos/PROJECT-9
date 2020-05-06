@@ -1,0 +1,17 @@
+git init
+git status
+git add masodik-level.txt
+git add elso-level.txt
+git commit -m "two secret files"
+git config --global user.email "bodnar.janos@hotmail.com"
+git config --global user.name "Bodnar Janos"
+git log
+git remote add origin https://github.com/BodnarJanos/PROJECT-9.git
+git push origin master
+git pull origin master
+-- ha hiba van akkor próbáld ezt
+git pull origin master --allow-unrelated-histories
+git push origin master
+git diff 
+git diff HEAD
+git diff --staged
